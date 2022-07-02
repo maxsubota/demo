@@ -1,0 +1,14 @@
+
+spring:
+  cloud:
+    refresh:
+      enabled: false
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/?retryWrites=true&w=majority
+      database: demo
+
+
+#logging:
+#  level:
+#    root: debug
